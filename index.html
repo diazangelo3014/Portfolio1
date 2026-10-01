@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A virtual assistant, web developer, and social media manager helping good ideas run smoothly and look their best online."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>Your Name — Virtual Assistant, Web Developer & Social Media Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="wordmark" href="#home" aria-label="Angelo Diaz, home">
+          <span class="wordmark-mark" aria-hidden="true">AD</span>
+          <span>Angelo Diaz<span class="wordmark-period">.</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#social-work">Social media</a>
+          <a href="#credentials">Credentials</a>
+          <a href="#services">What I do</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-wrap" id="home">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-light"></span> YOUR CREATIVE, ORGANIZED RIGHT HAND</p>
+          <h1>Good ideas deserve<br />a <span class="highlight">little more</span><br />getting done.</h1>
+          <p class="hero-intro">
+            I’m a virtual assistant, web developer, and social media manager helping busy people  
+            run their day better, grow their online presence, and bring ideas to life.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">Have a project in mind?</a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Decorative collage of a website in progress">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="hero-sticker sticker-top">IDEAS → ACTION</div>
+          <div class="browser-card">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+              <div class="browser-address">your-next-big-thing.com</div>
+            </div>
+            <div class="browser-page">
+              <div class="mini-nav"><span class="mini-logo">GOOD THINGS</span><span>MENU&nbsp; ☰</span></div>
+              <div class="mini-copy">
+                <span>MADE FOR YOUR NEXT CHAPTER</span>
+                <strong>Make space<br />for the good stuff.</strong>
+                <i>Thoughtful work, beautifully done.</i>
+                <b>LET’S MAKE IT HAPPEN&nbsp; ↗</b>
+              </div>
+              <div class="mini-sun"></div>
+            </div>
+          </div>
+          <div class="floating-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <span><strong>Less overwhelm.</strong><small>More room to grow.</small></span>
+          </div>
+          <div class="hero-sticker sticker-bottom">BUILT WITH INTENTION ✳</div>
+        </div>
+
+        <div class="hero-footer">
+          <span>INDEPENDENT BY NATURE · DETAIL-OBSESSED BY CHOICE</span>
+          <a href="#work">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <div class="marquee" aria-label="Virtual assistance, web development, and social media management">
+        <div class="marquee-track" aria-hidden="true">
+          <div class="marquee-group">
+            <span>VIRTUAL ASSISTANCE</span><i>✳</i><span>WEB DEVELOPMENT</span><i>✳</i>
+            <span>SOCIAL MEDIA MANAGEMENT</span><i>✳</i>
+          </div>
+          <div class="marquee-group">
+            <span>VIRTUAL ASSISTANCE</span><i>✳</i><span>WEB DEVELOPMENT</span><i>✳</i>
+            <span>SOCIAL MEDIA MANAGEMENT</span><i>✳</i>
+          </div>
+        </div>
+        <button class="marquee-toggle" type="button" aria-label="Pause ticker animation" aria-pressed="false" title="Pause ticker animation">
+          <span aria-hidden="true">Ⅱ</span>
+        </button>
+      </div>
+
+      <section class="work-section section-wrap" id="work">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">A FEW THINGS I’VE MADE</p>
+            <h2>Thoughtful work.<br /><span>Real-world useful.</span></h2>
+          </div>
+          <p class="section-aside">A little strategy, a lot of care, and the details that make it feel just right.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-feature reveal">
+            <a class="project-visual visual-commerce" href="#contact" aria-label="Discuss an e-commerce website project">
+              <div class="commerce-window">
+                <div class="commerce-top">
+                  <span class="commerce-brand">NOVA &amp; CO.</span>
+                  <span class="commerce-nav">NEW IN &nbsp;•&nbsp; BESTSELLERS &nbsp;•&nbsp; HOME &nbsp;•&nbsp; SALE</span>
+                </div>
+                <div class="commerce-hero">
+                  <div class="commerce-copy">
+                    <span>NEW SEASON</span>
+                    <h3>Thoughtful pieces for everyday rituals.</h3>
+                    <div class="commerce-actions">
+                      <button type="button">Shop now</button>
+                      <button type="button" class="secondary">View lookbook</button>
+                    </div>
+                  </div>
+                  <div class="commerce-product">
+                    <div class="product-figure product-figure-main"></div>
+                    <div class="product-tag">LIMITED DROP</div>
+                  </div>
+                </div>
+                <div class="commerce-grid">
+                  <div class="shop-item shop-item-one"><span>LIGHTWEIGHT KNIT</span></div>
+                  <div class="shop-item shop-item-two"><span>STONEWARE SET</span></div>
+                  <div class="shop-item shop-item-three"><span>WOOL THROW</span></div>
+                </div>
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </div>
+              <span class="project-index">01 / E-COMMERCE WEBSITE</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Nova &amp; Co.</h3><p>An elevated storefront for a home and lifestyle brand with a smooth, conversion-focused shopping experience.</p></div>
+              <span class="project-type">CLIENT WORK</span>
+            </div>
+          </article>
+
+          <article class="project-card project-small reveal">
+            <a class="project-visual visual-socialmock" href="#contact" aria-label="Discuss social media management work">
+              <div class="socialmock-window">
+                <div class="socialmock-header">
+                  <span class="social-brand">Cafébara</span>
+                  <span class="social-date">APR 2025</span>
+                </div>
+                <div class="socialmock-layout">
+                  <div class="socialmock-sidebar">
+                    <div class="profile-pill">@Cafébara</div>
+                    <div class="mini-stat"><strong>48k</strong><span>engagement</span></div>
+                    <div class="mini-stat"><strong>50+</strong><span>posts</span></div>
+                  </div>
+                  <div class="socialmock-feed">
+                    <div class="feed-card feed-feature">
+                      <div class="feed-badge">REEL</div>
+                      <div class="feed-visual"></div>
+                      <p>5-minute routines for the morning reset.</p>
+                    </div>
+                    <div class="feed-row">
+                      <div class="feed-card tiny-card card-one"></div>
+                      <div class="feed-card tiny-card card-two"></div>
+                      <div class="feed-card tiny-card card-three"></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="visual-arrow" aria-hidden="true">↗</span>
+              </div>
+              <span class="project-index">02 / SOCIAL MEDIA MANAGEMENT</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Cafébara</h3><p>Content strategy, branded visuals, and Instagram-ready storytelling for a lifestyle business.</p></div>
+              <span class="project-type">CLIENT WORK</span>
+            </div>
+          </article>
+
+          <article class="project-card project-small reveal">
+            <a class="project-visual visual-organize" href="#contact" aria-label="Discuss a virtual assistant project">
+              <div class="organize-window">
+                <span class="organize-label">A LITTLE MORE HEADSPACE</span>
+                <strong>YOUR WEEK,<br />IN GOOD HANDS<span>.</span></strong>
+                <div class="task-list">
+                  <div><i>✓</i><span>Inbox, under control</span><b>DONE</b></div>
+                  <div><i>✓</i><span>Calendar, in sync</span><b>DONE</b></div>
+                  <div><i class="unchecked"></i><span>Make room to think</span><b>YOURS</b></div>
+                </div>
+                <div class="organize-stamp">ON IT<br />✳</div>
+              </div>
+              <span class="project-index">03 / VIRTUAL ASSISTANCE</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Room to Think</h3><p>Behind-the-scenes support for a founder doing it all.</p></div>
+              <span class="project-type">SAMPLE PROJECT</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="social-work-section" id="social-work">
+        <div class="section-wrap social-work-wrap">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">SOCIAL MEDIA MANAGEMENT</p>
+              <h2>Made for the feed.<br /><span>Made with intention.</span></h2>
+            </div>
+            <p class="section-aside">A selection of social media graphics and short-form videos created for brand storytelling and everyday publishing.</p>
+          </div>
+          <div class="gallery-toolbar">
+            <p>GRAPHICS &amp; VIDEO SAMPLES</p>
+            <div class="gallery-filters" role="group" aria-label="Filter social media samples">
+              <button class="gallery-filter is-active" type="button" data-filter="all" aria-pressed="true">All work</button>
+              <button class="gallery-filter" type="button" data-filter="image" aria-pressed="false">Graphics</button>
+              <button class="gallery-filter" type="button" data-filter="video" aria-pressed="false">Videos</button>
+            </div>
+          </div>
+          <div class="gallery-viewport" id="socialGalleryViewport" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Social media work">
+          <div class="social-gallery" id="socialGallery">
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 01" data-media-src="assets/socmed/1.jpg" aria-label="View social media graphic 1">
+                <img src="assets/socmed/1.jpg" alt="CafeBara Biscoff waffle promotional graphic" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>01</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 02" data-media-src="assets/socmed/2.jpg" aria-label="View social media graphic 2">
+                <img src="assets/socmed/2.jpg" alt="CafeBara opening announcement and cafe promotional graphic" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>02</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 03" data-media-src="assets/socmed/3.jpg" aria-label="View social media graphic 3">
+                <img src="assets/socmed/3.jpg" alt="CafeBara brand collage featuring the cafe, menu, and visitors" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>03</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 04" data-media-src="assets/socmed/4.jpg" aria-label="View social media graphic 4">
+                <img src="assets/socmed/4.jpg" alt="CafeBara social media content sample 4" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>04</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 05" data-media-src="assets/socmed/5.jpg" aria-label="View social media graphic 5">
+                <img src="assets/socmed/5.jpg" alt="CafeBara social media content sample 5" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>05</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 06" data-media-src="assets/socmed/6.jpg" aria-label="View social media graphic 6">
+                <img src="assets/socmed/6.jpg" alt="CafeBara social media content sample 6" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>06</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 07" data-media-src="assets/socmed/7.jpg" aria-label="View social media graphic 7">
+                <img src="assets/socmed/7.jpg" alt="CafeBara social media content sample 7" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>07</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 08" data-media-src="assets/socmed/8.jpg" aria-label="View social media graphic 8">
+                <img src="assets/socmed/8.jpg" alt="CafeBara social media content sample 8" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>08</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 09" data-media-src="assets/socmed/9.jpg" aria-label="View social media graphic 9">
+                <img src="assets/socmed/9.jpg" alt="CafeBara social media content sample 9" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>09</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 10" data-media-src="assets/socmed/10.jpg" aria-label="View social media graphic 10">
+                <img src="assets/socmed/10.jpg" alt="CafeBara social media content sample 10" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>10</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 11" data-media-src="assets/socmed/11.jpg" aria-label="View social media graphic 11">
+                <img src="assets/socmed/11.jpg" alt="CafeBara social media content sample 11" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>11</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 12" data-media-src="assets/socmed/12.jpg" aria-label="View social media graphic 12">
+                <img src="assets/socmed/12.jpg" alt="CafeBara social media content sample 12" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>12</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 13" data-media-src="assets/socmed/13.jpg" aria-label="View social media graphic 13">
+                <img src="assets/socmed/13.jpg" alt="CafeBara social media content sample 13" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>13</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 14" data-media-src="assets/socmed/14.jpg" aria-label="View social media graphic 14">
+                <img src="assets/socmed/14.jpg" alt="CafeBara social media content sample 14" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>14</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 15" data-media-src="assets/socmed/15.jpg" aria-label="View social media graphic 15">
+                <img src="assets/socmed/15.jpg" alt="CafeBara social media content sample 15" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>15</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 16" data-media-src="assets/socmed/16.jpg" aria-label="View social media graphic 16">
+                <img src="assets/socmed/16.jpg" alt="CafeBara social media content sample 16" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>16</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 17" data-media-src="assets/socmed/17.jpg" aria-label="View social media graphic 17">
+                <img src="assets/socmed/17.jpg" alt="CafeBara social media content sample 17" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>17</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 18" data-media-src="assets/socmed/18.jpg" aria-label="View social media graphic 18">
+                <img src="assets/socmed/18.jpg" alt="CafeBara social media content sample 18" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>18</span> Social media graphic</p>
+            </article>
+            <article class="social-card reveal" data-media-kind="image">
+              <button class="social-image-button" type="button" data-media-title="Social media graphic 19" data-media-src="assets/socmed/19.jpg" aria-label="View social media graphic 19">
+                <img src="assets/socmed/19.jpg" alt="CafeBara social media content sample 19" loading="lazy" />
+                <span class="social-image-action">VIEW GRAPHIC <span aria-hidden="true">↗</span></span>
+              </button>
+              <p><span>19</span> Social media graphic</p>
+            </article>
+            <article class="social-card social-video-card reveal" data-media-kind="video">
+              <div class="social-video-frame">
+                <video controls preload="none" playsinline aria-label="Social media video sample 1"><source src="assets/video/content1.mp4" type="video/mp4" /></video>
+                <button class="video-poster" type="button" aria-label="Play social media video sample 1"><span class="video-play-icon" aria-hidden="true">▶</span><span class="video-poster-label">PLAY VIDEO SAMPLE</span></button>
+              </div>
+              <p><span>V1</span> Short-form video</p>
+            </article>
+            <article class="social-card social-video-card reveal" data-media-kind="video">
+              <div class="social-video-frame">
+                <video controls preload="none" playsinline aria-label="Social media video sample 2"><source src="assets/video/content2.mp4" type="video/mp4" /></video>
+                <button class="video-poster" type="button" aria-label="Play social media video sample 2"><span class="video-play-icon" aria-hidden="true">▶</span><span class="video-poster-label">PLAY VIDEO SAMPLE</span></button>
+              </div>
+              <p><span>V2</span> Short-form video</p>
+            </article>
+            <article class="social-card social-video-card reveal" data-media-kind="video">
+              <div class="social-video-frame">
+                <video controls preload="none" playsinline aria-label="Social media video sample 3"><source src="assets/video/content3.mp4" type="video/mp4" /></video>
+                <button class="video-poster" type="button" aria-label="Play social media video sample 3"><span class="video-play-icon" aria-hidden="true">▶</span><span class="video-poster-label">PLAY VIDEO SAMPLE</span></button>
+              </div>
+              <p><span>V3</span> Short-form video</p>
+            </article>
+            <article class="social-card social-video-card reveal" data-media-kind="video">
+              <div class="social-video-frame">
+                <video controls preload="none" playsinline aria-label="Social media video sample 4"><source src="assets/video/content4.mp4" type="video/mp4" /></video>
+                <button class="video-poster" type="button" aria-label="Play social media video sample 4"><span class="video-play-icon" aria-hidden="true">▶</span><span class="video-poster-label">PLAY VIDEO SAMPLE</span></button>
+              </div>
+              <p><span>V4</span> Short-form video</p>
+            </article>
+          </div>
+          </div>
+          <div class="gallery-controls" aria-label="Social media gallery controls">
+            <span class="gallery-count" aria-live="polite">01–04 / 23</span>
+            <div class="gallery-arrows">
+              <button class="gallery-arrow" type="button" data-gallery-direction="-1" aria-label="Previous samples" disabled>←</button>
+              <button class="gallery-arrow" type="button" data-gallery-direction="1" aria-label="Next samples">→</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section" id="services">
+        <div class="section-wrap services-wrap">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">HOW I CAN HELP</p>
+              <h2>Your right hand.<br /><span>Your online presence.</span></h2>
+            </div>
+            <p class="section-aside">Choose a kind of support, or combine all three. I’ll meet you where you are and make the next step easier.</p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card service-assistant reveal">
+              <span class="service-number">01 — THE DAY-TO-DAY</span>
+              <div class="service-symbol symbol-sun" aria-hidden="true">✳</div>
+              <h3>Virtual<br />assistance<span>.</span></h3>
+              <p>Reliable, thoughtful support for all the moving parts behind your business—so you can focus on the work only you can do.</p>
+              <ul>
+                <li>Inbox & calendar management</li>
+                <li>Admin & customer support</li>
+                <li>Research, coordination & follow-through</li>
+              </ul>
+              <a class="service-link" href="#contact">Make your week lighter <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card service-web reveal">
+              <span class="service-number">02 — THE BIG PICTURE</span>
+              <div class="service-symbol symbol-spark" aria-hidden="true">↗</div>
+              <h3>Web<br />development<span>.</span></h3>
+              <p>A polished, purposeful website that feels like you, works beautifully, and gives your next idea a place to grow.</p>
+              <ul>
+                <li>Responsive website builds</li>
+                <li>Landing pages & portfolio sites</li>
+                <li>Front-end improvements & care</li>
+              </ul>
+              <a class="service-link" href="#contact">Bring your idea to life <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="service-card service-social reveal">
+              <span class="service-number">03 — THE ONLINE PRESENCE</span>
+              <div class="service-symbol symbol-sun" aria-hidden="true">✳</div>
+              <h3>Social media<br />management<span>.</span></h3>
+              <p>Thoughtful content support to help your brand show up consistently and connect with its audience online.</p>
+              <ul>
+                <li>Content planning &amp; scheduling</li>
+                <li>Social media graphics</li>
+                <li>Short-form video editing</li>
+              </ul>
+              <a class="service-link" href="#contact">Give your content a plan <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="credentials-section section-wrap" id="credentials">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">LEARNING, WITH RECEIPTS</p>
+            <h2>Good work.<br /><span>Backed by proof.</span></h2>
+          </div>
+          <p class="section-aside">A home for the courses, certifications, and credentials that support the work I do.</p>
+        </div>
+        <div class="credential-grid">
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="Facebook Advertising" data-certificate-src="assets/certificates/meta-advertising.png" aria-label="View Facebook Advertising certificate">
+              <img src="assets/certificates/meta-advertising.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">DIGITAL MARKETING</span><h3>Facebook Advertising</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="General Virtual Assistant" data-certificate-src="assets/certificates/canva.png" aria-label="View General Virtual Assistant certificate">
+              <img src="assets/certificates/canva.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">VIRTUAL ASSISTANCE</span><h3>General Virtual Assistant</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="Lead Generation" data-certificate-src="assets/certificates/lead-generation.png" aria-label="View Lead Generation certificate">
+              <img src="assets/certificates/lead-generation.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">BUSINESS DEVELOPMENT</span><h3>Lead Generation</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="Graphics Design" data-certificate-src="assets/certificates/graphic-design.png" aria-label="View Graphics Design certificate">
+              <img src="assets/certificates/graphic-design.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">CREATIVE TOOLS</span><h3>Graphics Design</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="Social Media Management" data-certificate-src="assets/certificates/social-media-management.png" aria-label="View Social Media Management certificate">
+              <img src="assets/certificates/social-media-management.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">SOCIAL MEDIA</span><h3>Social Media Management</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+          <article class="credential-card reveal">
+            <button class="credential-preview" type="button" data-certificate-title="Data Entry" data-certificate-src="assets/certificates/data-entry.png" aria-label="View Data Entry certificate">
+              <img src="assets/certificates/data-entry.png" alt="" loading="lazy" />
+              <span>VIEW CERTIFICATE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="credential-details"><span class="credential-tag">ADMINISTRATIVE SUPPORT</span><h3>Data Entry</h3><p>VirtualAssist Online <span>·</span> Apr 20, 2026</p></div>
+          </article>
+        </div>
+        <p class="credential-note">Select a certificate to view it in full size.</p>
+      </section>
+
+      <dialog class="certificate-dialog" aria-labelledby="certificateDialogTitle">
+        <div class="dialog-header"><h2 id="certificateDialogTitle"></h2><button class="dialog-close" type="button" aria-label="Close preview">×</button></div>
+        <img class="dialog-certificate-image" alt="" />
+      </dialog>
+
+      <dialog class="contact-dialog" aria-labelledby="contactDialogTitle">
+        <div class="dialog-header contact-dialog-header">
+          <h2 id="contactDialogTitle">Contact details</h2>
+          <button class="dialog-close contact-dialog-close" type="button" aria-label="Close contact details">×</button>
+        </div>
+        <div class="contact-dialog-content">
+          <p>Let’s talk about your next project, website refresh, or content plan.</p>
+          <ul class="contact-dialog-list">
+            <li>
+              <span>Phone</span>
+              <a href="tel:+639994403259">+63 999 440 3259</a>
+            </li>
+            <li>
+              <span>WhatsApp</span>
+              <a href="https://wa.me/639994403259" target="_blank" rel="noreferrer">AngeloDiazSD</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:diazangelo3014@gmail.com?subject=Let%27s%20work%20together">diazangelo3014@gmail.com</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <a href="mailto:diazangelo040900@gmail.com?subject=Let%27s%20work%20together">diazangelo040900@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </dialog>
+
+      <section class="about-section section-wrap" id="about">
+        <div class="about-art reveal" aria-label="Decorative illustration">
+          <div class="about-shape"><span>GOOD<br />WORK<br /><i>FEELS</i><br />LIKE YOU.</span><b>✳</b></div>
+          <span class="about-caption">A THOUGHTFUL PARTNER, NOT ANOTHER TAB OPEN.</span>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Calm energy.<br /><span>Can-do brain.</span></h2>
+          <p class="about-lead">
+            I love turning “I’ll get to that” into “already handled”—and turning a good idea into
+            a website you can’t wait to share.
+          </p>
+          <p>
+            I bring a detail-minded, people-first approach to virtual assistance, web development,
+            and social media management. Whether I’m untangling a busy schedule, building a website,
+            or creating content for a brand’s feed, I care about making the work feel considered,
+            clear, and genuinely useful.
+          </p>
+          <a class="text-link about-link" href="#contact">A little more about working together <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="process-section section-wrap">
+        <div class="process-intro reveal">
+          <p class="eyebrow">EASY DOES IT</p>
+          <h2>Good work starts<br />with a <span>good chat.</span></h2>
+          <p>No complicated process. Just a clear plan, kind communication, and steady progress you can actually see.</p>
+        </div>
+        <div class="process-list">
+          <article class="process-step reveal"><span>01</span><div><h3>We talk it through</h3><p>You tell me what’s on your plate, what you’re dreaming up, and what would make life easier.</p></div><b>↘</b></article>
+          <article class="process-step reveal"><span>02</span><div><h3>We make a plan</h3><p>I’ll suggest the right next steps, agree on the details, and make sure we’re on the same page.</p></div><b>↘</b></article>
+          <article class="process-step reveal"><span>03</span><div><h3>I get it moving</h3><p>Thoughtful work, regular updates, and a finished result that’s ready to make a difference.</p></div><b>✳</b></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="section-wrap contact-wrap reveal">
+          <p class="eyebrow"><span class="status-light"></span> YOUR NEXT STEP STARTS HERE</p>
+          <h2>Let’s make<br />some <span>good things.</span></h2>
+          <p>Tell me what you’re working on—or what you’d love to stop working around. I’m all ears.</p>
+          <button class="button button-light hello-trigger" type="button">
+            Say hello <span aria-hidden="true">↗</span>
+          </button>
+          <span class="contact-email">diazangelo040900@gmail.com</span>
+          <div class="contact-doodle" aria-hidden="true">✳</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="wordmark footer-wordmark" href="#home"><span class="wordmark-mark">AD</span><span>Angelo Diaz<span class="wordmark-period">.</span></span></a>
+        <span>INDEPENDENTLY YOURS. THOUGHTFULLY DONE.</span>
+        <span>© <span id="year"></span> Angelo Diaz</span>
+      </div>
+    </footer>
+  </body>
+</html>
